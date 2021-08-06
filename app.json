@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "customer-service-application",
+    "slug": "customerserviceapp",
+    "description": "Customerservice application",
+    "privacy": "public",
+    "version": "1.0.0",
+    "platforms": ["ios", "android"],
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#4A90E2"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 1500
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#4A90E2"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.ico"
+    }
+  }
+}
