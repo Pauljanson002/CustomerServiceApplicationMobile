@@ -4,7 +4,7 @@ import {createBottomTabNavigator} from "react-navigation-tabs";
 
 import JobScreen from "./jobs";
 import ProviderScreen from "./providers";
-
+import ProfileScreen from "./profile";
 const TabNavigator = createBottomTabNavigator({
     JobScreen:{
         screen:JobScreen,
@@ -16,6 +16,12 @@ const TabNavigator = createBottomTabNavigator({
         screen:ProviderScreen,
         navigationOptions:{
             tabBarLabel:"Provider"
+        }
+    },
+    ProfileScreen:{
+        screen:ProfileScreen,
+        navigationOptions:{
+            tabBarLabel:"Profile"
         }
     }
 })
